@@ -1,6 +1,6 @@
 # Health Insurance Cross-Sell Prediction
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/insurance_recommendation.jpeg?raw=true" width=70% height=70% title="Health-Insurance-Ranking" alt="project_cover_image"/>
+<img src="https://github.com/kedimo-cd/_Insurance_Ranking_/blob/main/images/seguro.jpg"/>
 
 Projeto de rankeamento de clientes interessados na aquisição de um seguro veicular.
 
@@ -122,7 +122,7 @@ Insights são informações novas, ou que contrapõe crenças até então estabe
 
 #### H1 - O interesse é maior em clientes com idade maior.
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/h1_age.png?raw=true" alt="h1_validacao" title="Interesse vs Idade" align="center" height="380" class="center"/>
+<img src="https://github.com/kedimo-cd/_Insurance_Ranking_/blob/main/images/h1_age.png" alt="h1_validacao" title="Interesse vs Idade" align="center" height="380" class="center"/>
 
 Hipótese falsa. Pode ser observado que clientes entre 40-45 anos são os mais interessados em seguro veicular.
 
@@ -130,7 +130,7 @@ Hipótese falsa. Pode ser observado que clientes entre 40-45 anos são os mais i
 
 #### H2 - O interesse é maior em clientes que possuem veículos mais novos.
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/h2_vehicle_age.png?raw=true" alt="h2_validacao" title="Interesse vs Idade do Veículo" align="center" height="380" class="center"/>
+<img src="https://github.com/kedimo-cd/_Insurance_Ranking_/blob/main/images/h2_vehicle_age.png" alt="h2_validacao" title="Interesse vs Idade do Veículo" align="center" height="380" class="center"/>
 
 Hipótese falsa. Quando mais velho o veículo, maior é o interesse em seguro veicular:
 - 4% dos clientes com veículos abaixo de 1 ano possuem interesse.
@@ -141,7 +141,7 @@ Hipótese falsa. Quando mais velho o veículo, maior é o interesse em seguro ve
 
 #### 3 O interesse é maior em clientes que possuíam seu veículo previamente segurado.
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/h3_prev_insured.png?raw=true" alt="h3_validacao" title="Interesse vs Seguro Prévio" align="center" height="380" class="center"/>
+<img src="https://github.com/kedimo-cd/_Insurance_Ranking_/blob/main/images/h3_prev_insured.png" alt="h3_validacao" title="Interesse vs Seguro Prévio" align="center" height="380" class="center"/>
 
 Hipótese falsa. 22% dos clientes que não possuíam veículo previamente segurado estão interessados em seguro de veículo, enquanto apenas 1% dos clientes que possuíam seguro tem interesse.
 
@@ -156,14 +156,14 @@ Pro fim, o modelo de base é também exibido, representando a lista aleatória d
 Curva de Ganhos Acumulados: ordenada por probabilidade de compra, cruza o percentual da base de clientes com o percentual de clientes propensos a comprar.
 Ex: 40% da base de clientes (x), ordenada pela probabilidade de compra (y), contém 80% de todos os interessados em seguro veicular.
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/gains_curve_final%20.png?raw=true" alt="curva ganho final" title="Curva de Ganhos Acumulados - Comparação dos modelos" align="center" height="500" class="center"/>
+<img src="https://github.com/kedimo-cd/_Insurance_Ranking_/blob/main/images/gains_curve_final%20.png" alt="curva ganho final" title="Curva de Ganhos Acumulados - Comparação dos modelos" align="center" height="500" class="center"/>
 
 Na curva lift abaixo, os 4 modelos somados ao modelo perfeito e o baseline também são exibidos.
 
 Lift Curve: representa a diferença entre a curva de ganho e a lista aleatória. Portanto, informa o quanto o modelo é melhor que lista aleatória.
 Ex: Abrangendo 40% da lista ordenada, o modelo é 2,2 vezes melhor que a lista aleatória.
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/lift_curves_final.png?raw=true" alt="curva lift final" title="Curva Lift - Comparação dos modelos" align="center" height="500" class="center"/>
+<img src="https://github.com/kedimo-cd/_Insurance_Ranking_/blob/main/images/lift_curves_final.png" alt="curva lift final" title="Curva Lift - Comparação dos modelos" align="center" height="500" class="center"/>
 
 Nas tabelas abaixo, precision@k e recall@k são exibidas para os diferentes modelos selecionados.
 
@@ -196,7 +196,7 @@ Com o uso dos dados de teste (dados inéditos), é feita a simulação de perfor
 
 As curvas de ganho cumulativo e lift dos dados de teste são apresentadas abaixo.
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/gain_lift_test_final.png?raw=true" alt="curva lift final" title="Curva Lift - Comparação dos modelos" align="center" height="700" class="center"/>
+<img src="https://github.com/kedimo-cd/_Insurance_Ranking_/blob/main/images/gain_lift_test_final.png" alt="curva lift final" title="Curva Lift - Comparação dos modelos" align="center" height="700" class="center"/>
 
 Na sequência, as duas tabelas demonstram os valores de precision@k e recall@k do XGBoost.
 
@@ -230,7 +230,7 @@ As questões de negócios abaixo serão respondidas com base nas premissas citad
 
 ### Qual a porcentagem de clientes interessados em seguro veicular, o call center conseguirá contatar fazendo 20 mil ligações?
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/20k_calls_results.png?raw=true" alt="20 k calls" title="Resultados com 20 mil ligações" align="center" height="700" class="center"/>
+<img src="https://github.com/kedimo-cd/_Insurance_Ranking_/blob/main/images/20k_calls_results.png" alt="20 k calls" title="Resultados com 20 mil ligações" align="center" height="700" class="center"/>
 
 Pela lista aleatória:
  - A equipe de vendas contata 26% dos interessados em seguro veicular: 2.451 clientes (ver Ganho: cruzamento linha preta x verde).
@@ -246,7 +246,7 @@ Portanto, a receita estimada é 2,68 vezes maior que a lista aleatória: US$ 130
 
 ### Se a capacidade do call center aumentar para 40 mil ligações, qual a porcentagem de clientes interessados em adquirir um seguro veicular o call center conseguirá contatar?
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/40k_calls_results.png?raw=true" alt="40 k calls" title="Resultados com 40 mil ligações" align="center" height="700" class="center"/>
+<img src="https://github.com/kedimo-cd/_Insurance_Ranking_/blob/main/images/40k_calls_results.png" alt="40 k calls" title="Resultados com 40 mil ligações" align="center" height="700" class="center"/>
 
 Pela lista aleatória:
   - A equipe de vendas contata 52% dos interessados em seguro veicular: 4902 clientes (ver Ganho: cruzamento linha preta x verde).
@@ -262,7 +262,7 @@ Portanto, a receita estimada é 1,9 vezes maior que a lista aleatória: US$ 139 
 
 ### Quantas ligações o call center precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro veicular?
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/80perc_cust_results.png?raw=true" alt="80% interessados" title="Resultados com 80% dos interessados" align="center" height="700" class="center"/>
+<img src="https://github.com/kedimo-cd/_Insurance_Ranking_/blob/main/images/80perc_cust_results.png" alt="80% interessados" title="Resultados com 80% dos interessados" align="center" height="700" class="center"/>
 
 Pela lista aleatória:
   - A equipe de vendas precisa fazer 60.976 ligações, para entrar em contato com 80% dos clientes da lista, então atingirá 80% dos interessados em seguro veicular.
