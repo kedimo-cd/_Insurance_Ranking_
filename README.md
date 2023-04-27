@@ -1,4 +1,4 @@
-# Health Insurance Cross-Sell Prediction
+# Insurance Cross-Sell Prediction
 
 <img src="https://github.com/kedimo-cd/_Insurance_Ranking_/blob/main/images/seguro.jpg"/>
 
