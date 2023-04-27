@@ -273,9 +273,7 @@ Pela lista ordenada (modelo):
 RESULTADO: Fazendo 23800 ligações, o modelo é 2,6 vezes melhor que a lista aleatória. (ver Lift: cruzamento linha azul x verde).
 
 
-### Planilha funcional em Google Sheets
-
-<img src="/images/gif_800.gif" alt="cumulative gains curve and lift curve" title="Demonstração da solução" align="center" height="600" class="center"/>
+### Planilha em Google Sheets
 
 Acesso a planilha: [Google Sheets - Health Insurance Ranking](https://docs.google.com/spreadsheets/d/1GM-Ul_8zbroP7pNapIoZuXfV3NJNghgihs9lYQiDqPI/edit#gid=0)
 
