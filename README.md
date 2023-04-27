@@ -295,4 +295,4 @@ Pelo fato da solução implementada via planilha poder ser utilizada para novos 
 
 ## 10 Referências
 * O Dataset foi obtido no [Kaggle](https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction).
-* A imagem utilizada é de uso livre e foi obtida no [Pexels](https://www.pexels.com/pt-br/foto/onibus-branco-ao-lado-da-estrutura-de-concreto-2889806/).
+* A imagem utilizada é de uso livre e foi obtida no [Pexels](https://www.pexels.com/pt-br/).
